@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the first 98 Fibonacci numbers, starting with
+ * main - Entry point
  * 1 and 2, seperated by a comma followed by a space
  * Return: Always 0.
  */
@@ -14,7 +14,7 @@ int main(void)
 	for (count = 0; count < 92; count++)
 	{
 		sum = fib1 + fib2;
-		print("%lu, ", sum);
+		printf("%lu, ", sum);
 		fib1 = fib2;
 		fib2 = sum;
 	}
@@ -37,9 +37,4 @@ int main(void)
 		fib1_half1 = fib2_half1;
 		fib1_half2 = fib2_half2;
 		fib2_half1 = half1;
-		fib2_half2 = half2;
-	}
-	printf("\n");
-	return (0);
-}
-
+		fib2_half2 = half2
