@@ -2,7 +2,7 @@
 
 /**
  * main - main block
- * desscription: computes and prints the sum of all the maltiples of 
+ * desscription: computes and prints the sum of all the maltiples of 5
  * 5 below 1024 (excluded), followed by a new line
  * Return: 0
  */
