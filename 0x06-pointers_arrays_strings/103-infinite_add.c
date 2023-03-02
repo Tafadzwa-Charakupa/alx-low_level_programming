@@ -70,7 +70,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	for (index = 0; *(n2 + index); index++)
 		n2_len++;
 
-	if (size_r <= n1_len + || size_r <= n2_len + 1)
+	if (size_r <= n1_len + 1 || size_r <= n2_len + 1)
 		return (0);
 
 	n1 += n1_len - 1;
