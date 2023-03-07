@@ -13,7 +13,7 @@
  * @n: The number of bytes to be filled.
  * description _memeset: over there
  *
- * Return: S pointer is to be filled memory area @s
+ * Return: A pointer is to be filled memory area @s
  */
 void *_memset(void *s, int c, size_t n)
 {
