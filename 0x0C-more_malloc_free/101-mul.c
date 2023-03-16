@@ -89,9 +89,9 @@ int main(int argc, char *argv[])
 		printf("Error\n"), exit(98);
 	ln1 = _checknum(argv, 1), ln2 = _checknum(argv, 2);
 	_is_zero(argv), lnout = ln1 + ln2, nout = malloc(lnout + 1);
-	if (noun == NULL)
+	if (nout == NULL)
 		printf("Error\n"), exit(98);
-	noun = _initialize_array(nout, lnout);
+	nout = _initialize_array(nout, lnout);
 	k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 	for (; k >= 0; k--, i--)
 	{
