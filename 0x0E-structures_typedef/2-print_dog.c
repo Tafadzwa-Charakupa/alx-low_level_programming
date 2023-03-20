@@ -8,7 +8,7 @@
 void print_dog(struct dog *d)
 {
 	if (dog == NULL)
-		return (0);
+		return;
 	if (d->name == NULL)
 		d->name = "(nil)";
 	if (d->owner == NULL)
