@@ -5,7 +5,7 @@
  * @n: the number
  * @m: the number to flip n to
  *
- * Return: the necessary number of bits to flip to get fronm n to m
+ * Return: the number of bits
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -14,7 +14,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	while (xor > 0)
 	{
 		bits += (xor & 1);
-		xor >> 1;
+		xor >>= 1;
 	}
 	return (bits);
 }
