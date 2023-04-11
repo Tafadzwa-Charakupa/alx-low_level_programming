@@ -2,10 +2,9 @@
 /**
  * get_bit - Gets the value of a bit at a given index
  * @n: the bit
- * @index: the index to get the value at - indices start at 0
+ * @index: the index of the bit
  *
- * Return: if error occurs - -1
- * otherwise - the value of bitat index
+ * Return: the value of the bit
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
